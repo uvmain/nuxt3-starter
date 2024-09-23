@@ -12,8 +12,7 @@ useHead({
 <template>
   <div id="app" class="bg-blue-gray-100 min-h-screen flex flex-col">
     <Header />
-    <NuxtLoadingIndicator />
-    <NuxtPage class="flex-1"/>
+    <NuxtPage class="flex-1 text-dark text-base"/>
     <Footer />
   </div>
 </template>
