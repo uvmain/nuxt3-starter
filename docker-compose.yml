@@ -1,0 +1,8 @@
+services:
+  recipebook:
+    image: starter:latest
+    container_name: starter
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
