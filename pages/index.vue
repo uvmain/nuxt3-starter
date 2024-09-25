@@ -1,7 +1,6 @@
 <script setup lang="ts">
 const { loggedIn, user } = useUserSession()
 
-
 </script>
 
 <template>

@@ -14,10 +14,5 @@ export default defineNuxtConfig({
     families: {
       Poppins: true,
     }
-  },
-  runtimeConfig: {
-    adminUser: 'admin', // can be overridden by NUXT_ADMIN_USER environment variable
-    adminPassword: 'password', // can be overridden by NUXT_ADMIN_PASSWORD environment variable
-    sessionMaxAge: 86400 // cookie session length in seconds, can be overridden by NUXT_SESSION_MAX_AGE environment variable
-  },
-});
+  }
+})
